@@ -1,5 +1,40 @@
-* {
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Crimson Text', serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    background-color: #191724;
+    margin-top: 1.5%;
+    width: 100%;
+}
+
+header {
+    background-color: #F6C177;
+    text-align: center;
+}
+
+nav {
+    background-color: #F6C177;
+    padding: 0.5%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 1em;
+    display: inline;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+
 }
