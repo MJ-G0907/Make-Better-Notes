@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     font-family: 'Nunito', sans-serif;
 }
@@ -14,14 +13,11 @@ h1 {
     font-size: 2.5em;
 }
 
-body {
-    width: 100%;
-}
-
 header {
     background-color: #F6C177;
+    color: #191724;
     text-align: center;
-    min-height: 8vh;
+    min-height: 6vh;
 }
 
 nav {
@@ -33,33 +29,89 @@ ul {
     margin: 0;
 }
 
-.nav_container {
+.nav-container {
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: center;
 }
 
+.nav-container li {
+    color: #191724;
+}
+
 li {
     padding: 1em;
+    color: #F6C177;
 }
 
 main {
     background-color: #191724;
-    color: #fff;
+    color: #F6C177;
     margin-bottom: 0;
-    min-height: 60vh;
+    min-height: 65vh;
+}
+
+.container-for-appearance-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    height: 40vh;
+}
+
+.textarea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-for-event-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-for-saved-notes {
+    min-height: 40vh;
+    background-color: #191724;
+    color: #F6C177;
+    text-align: center;
+}
+
+.note-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 button {
+    margin: 0.5%;
+    padding: 0.5%;
+    color: #191724;
+    background-color: #F6C177;
+    border-radius: 15%;
+    border-style: none;
     text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
 
+button:hover {
+    background-color: #191724;
+    color: #F6C177;
+}
 
 footer {
     background-color: #F6C177;
+    color: #191724;
     text-align: center;
-    min-height: 23vh;
+    min-height: 35vh;
 }
 
 img {
